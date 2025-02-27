@@ -67,6 +67,7 @@ const GridLight = () => {
     if (isEveryPositiveValueSelected) {
       setTimeout(() => {
         reverseLights();
+        setOrder(1);
       }, reverseCallTimeOUt);
     }
   }, [newConfig]);
