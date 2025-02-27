@@ -1,14 +1,14 @@
 import "../global.css";
-
+import GridLight from "./components/GridLight";
 
 function App() {
   return (
     <>
-      <h1 className='text3xl font-bold underline text-red-700'>
-        Hello React 
-      </h1>
+      <div>
+        <GridLight />
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
